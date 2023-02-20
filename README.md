@@ -3,8 +3,9 @@
 
 The web application allows users to analyze their Spotify Wrapped playlists from various years to see how their music tastes have evolved over time. 
 The key features include showing their top artists (from each year and cumulatively) and also indicating which songs have stood the test of time by remaining as their favorites over the years. The application allows users to compare 2-4 of their playlists at a time.
-
 The application uses Javascript, Node, Express, HTML, CSS, and the Spotify Node Web API.
+![Screen Recording 2023-02-19 at 9 30 16 PM](https://user-images.githubusercontent.com/71235972/219997442-d9a0c0a9-5333-4e00-af63-a2a61f2f31b1.gif)
+
 
 <img width="1247" alt="Screen Shot 2023-02-02 at 2 05 31 AM" src="https://user-images.githubusercontent.com/71235972/216255298-cab4a8ba-bbb1-448e-b59d-7670d4aedac9.png">
 
