@@ -9,6 +9,7 @@ The application uses Javascript, Node, Express, HTML, CSS, and the Spotify Node 
 
 ![Screen Recording 2023-02-19 at 9 30 16 PM](https://user-images.githubusercontent.com/71235972/219997547-4ee5369f-e8ef-404c-b330-154c5e8919bf.gif)
 
+![Screen Recording 2023-02-19 at 9 30 16 PM](https://user-images.githubusercontent.com/71235972/219997667-649cf555-3374-420a-af49-d2e8f9b9518b.gif)
 
 
 
