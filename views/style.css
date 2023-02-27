@@ -36,8 +36,8 @@ img {
 
 .chart {
     position: absolute;
-    top: 100; /*[wherever you want it]*/
-    left: 350; /*[wherever you want it]*/
+    top: 100; 
+    left: 350; 
     height: 275px; 
     width: 25%; 
     display: inline-block;
