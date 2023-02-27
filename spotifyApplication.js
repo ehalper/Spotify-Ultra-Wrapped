@@ -25,7 +25,7 @@ function apiCall(reqOps) {
     });
 }
 
-let apiKey = 'BQCx-PaSCnuqm2qHyZ8Os4rsM7fDK8F5CtZsQY72l7IKSB0gMAND9HSmhTD0uffnSSNUnQt6coxnrDrJcPj1I2lvKtS33VV7edPCPXj1djyhcsI6ogPx0lJZevIqAQt11lUKtotqaUpt9ibRf3GmxMJEnka8FD6Znu3dq2SSEpXhm7N5YnlY3Yni7arlKV9-DTEsBxU1AstwjzXuZnvQ6v-ycS1m4KptfmtPvGO_mdv-4dUusmvjZJDGnZMMWhbNJeVnovkAEGFbjbTjW1COEU3ZNSrghT4CIZBGBJOQ-Mtz93rVF08UkedzT6ujGrSA_orZ1rW-jkhHgs1vaeWmAw'
+let apiKey = '' //Obtain an api key and paste here
 
 var headers = {
     'Accept': 'application/json',
