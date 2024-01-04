@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ultra Wrapped</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1 class="inline">Spotify Ultra Wrapped</h1> 
+	<img style="width: 135px" ; src="spotifyLogo.png" />
+	<h3>Specify the playlist IDs of the Spotify Wrapped playlists you would like to analyze.</h3>
+
+	<hr>
+	<br>
+	<form action="/results" method="post">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+			integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+		Add a Spotify Wrapped Playlist: <span class="fa fa-plus add"></span>
+		<br>
+		&nbsp;
+
+
+		<div class="appending_div">
+			<div>
+
+
+				Year 1: <select name="n1">
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020" selected >2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+				</select> &nbsp; Playlist ID 1: <input style="width: 180px;" type="text" name="n2"
+					required>
+				<br>
+				<br>
+				Year 2: <select name="n1">
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021" selected >2021</option>
+					<option value="2022">2022</option>
+					<option value="2022">2023</option>
+				</select> &nbsp; Playlist ID 2: <input style="width: 180px;" type="text" name="n2"
+					required>
+
+			</div>
+		</div>
+
+		<script>
+			let i = 3;
+			$(document).ready(function () {
+				$('.add').on('click', function () {
+					if (i < 5) {
+						if (i == 3) {
+							var field = '<br><div>	Year ' + i + ': <select name="n1"><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022" selected>2022</option><option value="2023">2023</option></select> &nbsp; Playlist ID ' + i + ':  <input style="width: 180px;" type="text" name="n2" required>			</div>';
+							$('.appending_div').append(field);
+
+
+						} else {
+							var field = '<br><div>	Year ' + i + ': <select name="n1"><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023" selected>2023</option></select> &nbsp; Playlist ID ' + i + ':  <input style="width: 180px;" type="text" name="n2" required>			</div>';
+							$('.appending_div').append(field);
+
+						}
+						i = i + 1;
+
+
+					}
+				})
+			})
+		</script>
+
+		<br>
+
+		<input type="submit" id="search" value="Search" /> <br>
+
+	</form>
+
+	<br>
+	<hr>
+
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+table {
+	display: table;
+}
+table tr {
+	display: table-cell;
+}
+table tr td {
+	display: block;
+}
+
+.floatLeft { width: 50%; float: left; }
+.floatRight {width: 50%; float: right; }
+.container { overflow: hidden; }
+
+body {
+    background-color: rgb(140, 190, 134)
+}
+
+table, th, td {
+    border: 3px solid;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.add{
+    cursor: pointer;
+}
+
+
+.chart {
+    position: absolute;
+    top: 100; 
+    left: 350; 
+    height: 275px; 
+    width: 25%; 
+    display: inline-block;
+}
+       
+
+.btn.dropdown-toggle {
+  width: 150px;
+  text-align: center;
+}
+
+span.caret {
+  position: absolute;
+  left: 90%;
+  top: 45%;
+}
+
+label {
+  padding-top: 5px;
+}
+
+.form-label {
+  padding-left: 0px !important;
+}
+
+.form-control {
+  border-radius: 100px;
+}
+
+.btn-success {
+  background-color: #3b7d4a im !important;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #4daf64;
+}
+
+img.track {
+  border: 3px solid #8a8a8a;
+}
